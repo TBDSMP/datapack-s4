@@ -11,6 +11,10 @@
             "jukebox_playable": "tbdsmp:steve_lava_chicken",
             "rarity": "uncommon",
             "enchantment_glint_override": true,
+            "lore": [
+                {"text": ""},
+                {"text":"", "bold":false, "color":"white", "italic":false, "obfuscated":false, "strikethrough":false, "underlined":false}
+            ],
             "consumable": {
                 "on_consume_effects": [
                     {
