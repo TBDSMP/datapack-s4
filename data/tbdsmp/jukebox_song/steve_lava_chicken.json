@@ -1,0 +1,8 @@
+{
+    "sound_event": {
+        "sound_id": "tbdsmp:music_disc.lava_chicken"
+    },
+    "description": "Jack Black - Lava Chicken",
+    "length_in_seconds": 17,
+    "comparator_output": 15
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:story/lava_bucket",
+    "criteria": {
+        "hot_lava": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"items": "minecraft:lava_bucket"}]
+            }
+        }
+    },
+    "requirements": [["hot_lava"]],
+    "rewards": {
+        "recipes": ["tbdsmp:lava_chicken"]
+    }
+}
