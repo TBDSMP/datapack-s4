@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:slime_ball",
+  "result": {
+    "id": "minecraft:slime_ball",
+    "components": {
+      "minecraft:custom_name": "PSC - Document",
+      "minecraft:lore": ["Put this item into your RIGHT HAND slot", "when playing the emote with the same name"],
+      "minecraft:item_model": "tbdsmp:court/psc_document"
+    }
+  }
+}

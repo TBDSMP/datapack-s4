@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:slime_ball",
+  "result": {
+    "id": "minecraft:slime_ball",
+    "components": {
+      "minecraft:custom_name": "CUL - Sweat",
+      "minecraft:lore": ["Put this item into your HEAD slot", "when playing the emote with the same name"],
+      "minecraft:item_model": "tbdsmp:court/cul_sweat",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
+    }
+  }
+}
