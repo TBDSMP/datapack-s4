@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:white_wool",
+  "result": {
+    "id": "minecraft:echo_shard",
+    "components": {
+      "minecraft:custom_name": "Masky",
+      "minecraft:lore": ["If lost, return to CaptainFlamey"],
+      "minecraft:item_model": "tbdsmp:plushies/masky",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
+    }
+  }
+}
