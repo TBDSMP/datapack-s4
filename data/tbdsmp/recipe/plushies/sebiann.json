@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:white_wool",
+  "result": {
+    "id": "minecraft:echo_shard",
+    "components": {
+      "minecraft:custom_name": "Sebiann",
+      "minecraft:lore": ["Crazy? I was crazy once", "They locked me in a room", "A rubber room, a rubber room with rats"],
+      "minecraft:item_model": "tbdsmp:plushies/sebiann",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
+    }
+  }
+}
