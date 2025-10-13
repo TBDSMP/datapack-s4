@@ -18,7 +18,7 @@ jobs:
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v4
         with:
-          packsquash_version: latest
+          packsquash_version: latest-unstable
           options: |
             # Optimize the pack in the root repository directory.
             # This is the default value for pack_directory when no PackSquash options are defined
@@ -27,9 +27,6 @@ jobs:
             # Set a custom output file path to work with the generated ZIP file
             # without needing to download its artifact in a separate step
             output_file_path = '/tmp/TBD-DP-S4.zip'
-
-            ['**/*?.mcfunction']
-            force_include = true
       - name: Calculate SHA1
         run: |
           echo "PACK_SHA1=$(sha1sum /tmp/TBD-DP-S4.zip | cut --delimiter " " --fields 1)" >> "$GITHUB_ENV"
