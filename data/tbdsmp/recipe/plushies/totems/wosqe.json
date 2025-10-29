@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:totem_of_undying",
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:custom_name": "Wosqe (Totem)",
+      "minecraft:lore": ["Amazing Builder and Water Priestess"],
+      "minecraft:item_model": "tbdsmp:plushies/wosqe"
+    }
+  }
+}
