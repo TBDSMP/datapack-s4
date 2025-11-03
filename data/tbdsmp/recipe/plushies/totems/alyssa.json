@@ -6,7 +6,10 @@
     "components": {
       "minecraft:custom_name": "Alyssa (Totem)",
       "minecraft:lore": ["Little marketable server owner", "Will kick you if you are being cringe, even as a plushie"],
-      "minecraft:item_model": "tbdsmp:plushies/alyssa"
+      "minecraft:item_model": "tbdsmp:plushies/alyssa",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
     }
   }
 }

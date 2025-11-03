@@ -6,7 +6,10 @@
     "components": {
       "minecraft:custom_name": "Wosqe (Totem)",
       "minecraft:lore": ["Amazing Builder and Water Priestess"],
-      "minecraft:item_model": "tbdsmp:plushies/wosqe"
+      "minecraft:item_model": "tbdsmp:plushies/wosqe",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
     }
   }
 }
