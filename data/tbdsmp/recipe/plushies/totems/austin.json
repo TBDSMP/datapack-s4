@@ -6,7 +6,10 @@
     "components": {
       "minecraft:custom_name": "Austin (Totem)",
       "minecraft:lore": ["Hugely helpful marketable admin", "Also known as swiss_choccy_plushie"],
-      "minecraft:item_model": "tbdsmp:plushies/austin"
+      "minecraft:item_model": "tbdsmp:plushies/austin",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
     }
   }
 }

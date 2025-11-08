@@ -6,7 +6,10 @@
     "components": {
       "minecraft:custom_name": "Masky (Totem)",
       "minecraft:lore": ["If lost, return to CaptainFlamey"],
-      "minecraft:item_model": "tbdsmp:plushies/masky"
+      "minecraft:item_model": "tbdsmp:plushies/masky",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
     }
   }
 }

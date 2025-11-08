@@ -6,7 +6,10 @@
     "components": {
       "minecraft:custom_name": "N..ib.s (Totem)",
       "minecraft:lore": ["The Newspaper won't write itself sadly"],
-      "minecraft:item_model": "tbdsmp:plushies/nibs"
+      "minecraft:item_model": "tbdsmp:plushies/nibs",
+      "minecraft:equippable": {
+        "slot": "head"
+      }
     }
   }
 }
