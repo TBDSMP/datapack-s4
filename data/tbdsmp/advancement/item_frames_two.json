@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:item_frame"
+        },
+        "title": "Locked Item Frames",
+        "description": [
+            "",
+            { 
+                "text": "You can lock item frames by using honeycomb and unlock with an axe like copper.",
+                "color": "light_purple"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tbdsmp:root",
+    "criteria": { "tick": { "trigger": "minecraft:tick" } }
+}

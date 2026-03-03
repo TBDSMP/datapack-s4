@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:lapis_lazuli"
+        },
+        "title": "/renameitem",
+        "description": [
+            "",
+            { 
+                "text": "You can rename items using the /renameitem command.\nCost: 1 lapis",
+                "color": "light_purple"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tbdsmp:root",
+    "criteria": { "tick": { "trigger": "minecraft:tick" } }
+}

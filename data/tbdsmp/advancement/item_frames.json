@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:item_frame"
+        },
+        "title": "Invis Item Frames",
+        "description": [
+            "",
+            { 
+                "text": "Shift + Right Click with an empty hand to turn it invisible.",
+                "color": "light_purple"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tbdsmp:root",
+    "criteria": { "tick": { "trigger": "minecraft:tick" } }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:filled_map"
+        },
+        "title": "Reset Maps",
+        "description": [
+            "",
+            { 
+                "text": "You can reset maps by throwing them in a filled cauldron.",
+                "color": "light_purple"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tbdsmp:root",
+    "criteria": { "tick": { "trigger": "minecraft:tick" } }
+}

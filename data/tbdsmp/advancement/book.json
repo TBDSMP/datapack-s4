@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:written_book"
+        },
+        "title": "/book author/title",
+        "description": [
+            "",
+            { 
+                "text": "You can use the /book command to set the author or title of a book.",
+                "color": "light_purple"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "tbdsmp:root",
+    "criteria": { "tick": { "trigger": "minecraft:tick" } }
+}
